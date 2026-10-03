@@ -1,0 +1,12 @@
+seed: 42
+test_size: 0.2
+epochs: 10
+batch_size: 4
+learning_rate: 0.00002
+max_length: 50
+dropout: 0.5
+entity_mode: first_tokens
+entity_count: 5
+bidirectional_edges: false
+phobert_model: vinai/phobert-base
+ner_model: NlpHUST/ner-vietnamese-electra-base

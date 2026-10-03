@@ -1,0 +1,11 @@
+{
+  "source": "17_SourceCode.ipynb output",
+  "epoch": 10,
+  "train_loss": 0.0023800097975602494,
+  "accuracy": 0.9375,
+  "precision_macro": 0.9365217391304348,
+  "recall_macro": 0.9388111888111889,
+  "f1_macro": 0.9372549019607843,
+  "train_size": 188,
+  "test_size": 48
+}

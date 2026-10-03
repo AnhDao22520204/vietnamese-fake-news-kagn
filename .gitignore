@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local/raw data
+data/raw/
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Model artifacts
+results/runs/
+*.pt
+*.pth
+*.ckpt
+
+# Secrets / local config
+.env
+.env.*
+credentials.json
+secrets.json
+
+# Editors / OS
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
